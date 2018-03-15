@@ -53,11 +53,11 @@ int main(void)
 
     if (PINB & 0x20) //start module
     {
-      if (fiveSecondEnable)
+      /*if (fiveSecondEnable)
       {
         delay(5000);
         fiveSecondEnable = false;
-      }
+      }*/
       if (qtr_stanga_fata < 150)
       {
         seen = true;
